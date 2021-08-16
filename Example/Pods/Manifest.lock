@@ -1,0 +1,16 @@
+PODS:
+  - SampleSDK_UMA (0.1.0)
+
+DEPENDENCIES:
+  - SampleSDK_UMA (from `../`)
+
+EXTERNAL SOURCES:
+  SampleSDK_UMA:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SampleSDK_UMA: 78250dd9b916378e03ce198d491bdddd5642e197
+
+PODFILE CHECKSUM: a8db6c671ed2a0c17fc180e35891d9b2eebb139c
+
+COCOAPODS: 1.10.2

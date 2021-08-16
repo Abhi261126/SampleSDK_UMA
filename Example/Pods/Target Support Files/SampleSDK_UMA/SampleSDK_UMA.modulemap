@@ -1,0 +1,6 @@
+framework module SampleSDK_UMA {
+  umbrella header "SampleSDK_UMA-umbrella.h"
+
+  export *
+  module * { export * }
+}

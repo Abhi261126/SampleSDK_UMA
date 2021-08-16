@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		1D0B0992C0AE4D292380FA4F /* Pods_SampleSDK_UMA_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleSDK_UMA_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		429DF1F21960554BF5CD2CE0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		45AFAFB02DCA1C21B42361D4 /* SampleSDK_UMA.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SampleSDK_UMA.podspec; path = ../SampleSDK_UMA.podspec; sourceTree = "<group>"; };
+		429DF1F21960554BF5CD2CE0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		45AFAFB02DCA1C21B42361D4 /* SampleSDK_UMA.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SampleSDK_UMA.podspec; path = ../SampleSDK_UMA.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* SampleSDK_UMA_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleSDK_UMA_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		DE24D5F0637EB57A8CF94303 /* Pods-SampleSDK_UMA_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleSDK_UMA_Example.release.xcconfig"; path = "Target Support Files/Pods-SampleSDK_UMA_Example/Pods-SampleSDK_UMA_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E253CCBB2F0ABEADC258D320 /* Pods-SampleSDK_UMA_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleSDK_UMA_Example.debug.xcconfig"; path = "Target Support Files/Pods-SampleSDK_UMA_Example/Pods-SampleSDK_UMA_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E9B43BF3EE5085162AC94B44 /* Pods-SampleSDK_UMA_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleSDK_UMA_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SampleSDK_UMA_Tests/Pods-SampleSDK_UMA_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F21C2C71B8EAB8500EDA7257 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F21C2C71B8EAB8500EDA7257 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				E9B43BF3EE5085162AC94B44 /* Pods-SampleSDK_UMA_Tests.debug.xcconfig */,
 				8E03CEA6572F678737BA8C54 /* Pods-SampleSDK_UMA_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
