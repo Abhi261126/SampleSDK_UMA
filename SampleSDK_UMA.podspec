@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SampleSDK_UMA'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SampleSDK_UMA.'
+  s.summary          = 'Poc of "SDK" SampleSDK_UMA.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

@@ -10,23 +10,26 @@ import UIKit
 import SampleSDK_UMA
 
 class ViewController: UIViewController {
-    var test = SampleSDK_UMA()
-//
+    var umaSDK = SampleSDK_UMA()
+
+    @IBOutlet weak var pressMeOutlet: UIButton!
+    @IBOutlet weak var lblText: UILabel!
     
-    @IBOutlet weak var testView: Sample_SDK_Create_ownview!
     override func viewDidLoad() {
         super.viewDidLoad()
+        pressMeOutlet.isHidden = true
+        lblText.isHidden = true
         
 //        Hello World
-//        print(test.testCallHelloWorld())
+//          lblText.text = umaSDK.printMsg()
         
-////        Existing View Color Change
-//        self.view.changeColourTesting(view: self.view)
-        // Do any additional setup after loading the view, typically from a nib.
+        
+////               Existing View Color Change
+//          self.view.changeColourTesting(colorCode: "#859490")
         
 //        Dymamic view
-//        let secondClass = Sample_SDK_Create_ownview(frame: CGRect.init(x: 100, y: 100, width: 200, height: 300))
-//        self.view.addSubview(secondClass)
+//          let addSubViewFromSDK = Sample_SDK_Create_ownview(frame: CGRect.init(x: 0, y: UIScreen.main.bounds.height - 300, width: UIScreen.main.bounds.width, height: 300))
+//          self.view.addSubview(addSubViewFromSDK)
         
         
     }
@@ -36,5 +39,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func pressMe(_ sender: Any) {
+        let vc = PresentViewControllerDemo()
+        self.present(vc, animated: true, completion: nil)
+
+    }
 }
 

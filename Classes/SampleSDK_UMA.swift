@@ -7,21 +7,44 @@
 
 import Foundation
 
+
 public class SampleSDK_UMA {
     
    public init() {}
-   public func testCallHelloWorld() -> String {return "Hello World"}
+   public func printMsg() -> String {return "Welcome abhishek this is our UMA SDK"}
     
 }
 
+extension UIColor {
+  
+  convenience init(_ hex: String, alpha: CGFloat = 1.0) {
+    var cString = hex.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
+    
+    if cString.hasPrefix("#") { cString.removeFirst() }
+    
+    if cString.count != 6 {
+      self.init("ff0000") // return red color for wrong hex input
+      return
+    }
+    
+    var rgbValue: UInt64 = 0
+    Scanner(string: cString).scanHexInt64(&rgbValue)
+    
+    self.init(red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
+              green: CGFloat((rgbValue & 0x00FF00) >> 8) / 255.0,
+              blue: CGFloat(rgbValue & 0x0000FF) / 255.0,
+              alpha: alpha)
+  }
+
+}
+
 public extension UIView {
-    func changeColourTesting(view: UIView) {
-        view.backgroundColor = #colorLiteral(red: 0.4666666687, green: 0.7647058964, blue: 0.2666666806, alpha: 1)
+    func changeColourTesting(colorCode: String? = "#ff0000") {
+        self.backgroundColor = UIColor(colorCode!)
+    }
+    
+    private func showInternalFunction()  {
+        print("test")
     }
 }
 
-//public extension UIView {
-//    func dynamicFrame(view: UIView) ->  {
-//        view.frame = view
-//    }
-//}

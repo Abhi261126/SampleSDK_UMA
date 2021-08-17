@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		12350F9A26CAC924002B3739 /* SampleSDK_UMA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12350F9926CAC924002B3739 /* SampleSDK_UMA.swift */; };
 		12350F9E26CACE45002B3739 /* Sample_SDK_Create_ownview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12350F9D26CACE45002B3739 /* Sample_SDK_Create_ownview.swift */; };
+		12350FDE26CB8560002B3739 /* PresentViewControllerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12350FDD26CB8560002B3739 /* PresentViewControllerDemo.swift */; };
 		25A9472CA72DE530347168DF2FB55672 /* Pods-SampleSDK_UMA_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A84B1107F08B43A791A2CD6DC2A7B9 /* Pods-SampleSDK_UMA_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38BA7C2461280C8EDD4A342EEEBE0FAB /* Pods-SampleSDK_UMA_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47506D7C454865627C0029E66C8B5D57 /* Pods-SampleSDK_UMA_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43EF273B2A347C8603626094769A711F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -41,6 +42,7 @@
 		03968DE006CA1A6334DB6D906097E5FD /* SampleSDK_UMA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SampleSDK_UMA.release.xcconfig; sourceTree = "<group>"; };
 		12350F9926CAC924002B3739 /* SampleSDK_UMA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSDK_UMA.swift; sourceTree = "<group>"; };
 		12350F9D26CACE45002B3739 /* Sample_SDK_Create_ownview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_SDK_Create_ownview.swift; sourceTree = "<group>"; };
+		12350FDD26CB8560002B3739 /* PresentViewControllerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentViewControllerDemo.swift; sourceTree = "<group>"; };
 		1E29C797204B952195EB512FDE81CFA8 /* SampleSDK_UMA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SampleSDK_UMA-umbrella.h"; sourceTree = "<group>"; };
 		26E459285D9082C0C44B07BE9B21266D /* Pods-SampleSDK_UMA_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SampleSDK_UMA_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		361C78085F582CCB96F8BD450B0603D7 /* SampleSDK_UMA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SampleSDK_UMA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +109,7 @@
 			children = (
 				12350F9D26CACE45002B3739 /* Sample_SDK_Create_ownview.swift */,
 				12350F9926CAC924002B3739 /* SampleSDK_UMA.swift */,
+				12350FDD26CB8560002B3739 /* PresentViewControllerDemo.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -402,6 +405,7 @@
 				12350F9A26CAC924002B3739 /* SampleSDK_UMA.swift in Sources */,
 				12350F9E26CACE45002B3739 /* Sample_SDK_Create_ownview.swift in Sources */,
 				D4DBED1F785440291B59A86ECC1789D3 /* SampleSDK_UMA-dummy.m in Sources */,
+				12350FDE26CB8560002B3739 /* PresentViewControllerDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
