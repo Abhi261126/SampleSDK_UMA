@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12350F9A26CAC924002B3739 /* SampleSDK_UMA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12350F9926CAC924002B3739 /* SampleSDK_UMA.swift */; };
+		12350F9E26CACE45002B3739 /* Sample_SDK_Create_ownview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12350F9D26CACE45002B3739 /* Sample_SDK_Create_ownview.swift */; };
 		25A9472CA72DE530347168DF2FB55672 /* Pods-SampleSDK_UMA_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A84B1107F08B43A791A2CD6DC2A7B9 /* Pods-SampleSDK_UMA_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38BA7C2461280C8EDD4A342EEEBE0FAB /* Pods-SampleSDK_UMA_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47506D7C454865627C0029E66C8B5D57 /* Pods-SampleSDK_UMA_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43EF273B2A347C8603626094769A711F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -16,7 +18,6 @@
 		B8526C37AFEE23E8575C5B08B40E5D92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		D011A35AF2E12F629B23CAE60C7F9E3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		D4DBED1F785440291B59A86ECC1789D3 /* SampleSDK_UMA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E8F4CE28F7422B553882D24FDACDE9 /* SampleSDK_UMA-dummy.m */; };
-		E4AC804251287C772DB516D214236C27 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE596EC76B38D835A4A005B2AF25DC7 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,23 +39,25 @@
 
 /* Begin PBXFileReference section */
 		03968DE006CA1A6334DB6D906097E5FD /* SampleSDK_UMA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SampleSDK_UMA.release.xcconfig; sourceTree = "<group>"; };
+		12350F9926CAC924002B3739 /* SampleSDK_UMA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSDK_UMA.swift; sourceTree = "<group>"; };
+		12350F9D26CACE45002B3739 /* Sample_SDK_Create_ownview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_SDK_Create_ownview.swift; sourceTree = "<group>"; };
 		1E29C797204B952195EB512FDE81CFA8 /* SampleSDK_UMA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SampleSDK_UMA-umbrella.h"; sourceTree = "<group>"; };
 		26E459285D9082C0C44B07BE9B21266D /* Pods-SampleSDK_UMA_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SampleSDK_UMA_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		361C78085F582CCB96F8BD450B0603D7 /* SampleSDK_UMA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SampleSDK_UMA.framework; path = SampleSDK_UMA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		361C78085F582CCB96F8BD450B0603D7 /* SampleSDK_UMA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SampleSDK_UMA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41017EB7CBAE8894E0F8BA2C0C5E1113 /* Pods-SampleSDK_UMA_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SampleSDK_UMA_Example-dummy.m"; sourceTree = "<group>"; };
 		47506D7C454865627C0029E66C8B5D57 /* Pods-SampleSDK_UMA_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SampleSDK_UMA_Tests-umbrella.h"; sourceTree = "<group>"; };
 		48A9922179284476748EFBE094642E59 /* Pods-SampleSDK_UMA_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleSDK_UMA_Example-Info.plist"; sourceTree = "<group>"; };
 		65AB21881457DABA23724DE7FEC8AB0B /* SampleSDK_UMA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SampleSDK_UMA.debug.xcconfig; sourceTree = "<group>"; };
-		67D3137F01AACACE85F3FF7D171770F9 /* SampleSDK_UMA.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SampleSDK_UMA.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		68173422D935B084F12F4C4F39F266C6 /* Pods_SampleSDK_UMA_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SampleSDK_UMA_Example.framework; path = "Pods-SampleSDK_UMA_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67D3137F01AACACE85F3FF7D171770F9 /* SampleSDK_UMA.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SampleSDK_UMA.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		68173422D935B084F12F4C4F39F266C6 /* Pods_SampleSDK_UMA_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleSDK_UMA_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		73AC3D8D875E03B8F16D9175E73FF2A4 /* SampleSDK_UMA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SampleSDK_UMA.modulemap; sourceTree = "<group>"; };
 		83477A70CAB64A3E0601A64B5715C455 /* Pods-SampleSDK_UMA_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleSDK_UMA_Example.release.xcconfig"; sourceTree = "<group>"; };
 		88A84B1107F08B43A791A2CD6DC2A7B9 /* Pods-SampleSDK_UMA_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SampleSDK_UMA_Example-umbrella.h"; sourceTree = "<group>"; };
-		8EF1BC78C18DC94B4AAF7C8503D9C92F /* Pods_SampleSDK_UMA_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SampleSDK_UMA_Tests.framework; path = "Pods-SampleSDK_UMA_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EF1BC78C18DC94B4AAF7C8503D9C92F /* Pods_SampleSDK_UMA_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleSDK_UMA_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97549794CE3BB47031058E8CF567F4E7 /* Pods-SampleSDK_UMA_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleSDK_UMA_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9BADA4C0259C196EEF30E84FD7BE0126 /* Pods-SampleSDK_UMA_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleSDK_UMA_Tests-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A14A152AAAE1DA0E7AC32833D89BCA00 /* Pods-SampleSDK_UMA_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleSDK_UMA_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A916A4FB3E80BE06F6C2C64E6EB4C2E0 /* Pods-SampleSDK_UMA_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleSDK_UMA_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		ACF7BFADFA0BFDDB3619C2E58AA6BF94 /* Pods-SampleSDK_UMA_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleSDK_UMA_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -63,13 +66,12 @@
 		B6E8F4CE28F7422B553882D24FDACDE9 /* SampleSDK_UMA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SampleSDK_UMA-dummy.m"; sourceTree = "<group>"; };
 		BF3A6F9EF4EF2D7B4172BA0B892A06E4 /* Pods-SampleSDK_UMA_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SampleSDK_UMA_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CADEF7F0136C876F6611F921E6340CA1 /* Pods-SampleSDK_UMA_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleSDK_UMA_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CC9DF2981D438A95C9679A003BA16FE0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CC9DF2981D438A95C9679A003BA16FE0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DB544170B36DB435C471A8AAE7C522F4 /* Pods-SampleSDK_UMA_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SampleSDK_UMA_Tests.modulemap"; sourceTree = "<group>"; };
-		E5977ECEAF52D6C34C41487043A19D6D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E5977ECEAF52D6C34C41487043A19D6D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F13DB48805F8AD8235FB27C709155145 /* Pods-SampleSDK_UMA_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SampleSDK_UMA_Tests-dummy.m"; sourceTree = "<group>"; };
 		FAA63D3C3091731FD56FDA35F029CC82 /* SampleSDK_UMA-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SampleSDK_UMA-prefix.pch"; sourceTree = "<group>"; };
 		FB87C60801C168DEF20E9993E66FEEBC /* SampleSDK_UMA-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SampleSDK_UMA-Info.plist"; sourceTree = "<group>"; };
-		FFE596EC76B38D835A4A005B2AF25DC7 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SampleSDK_UMA/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12350F9626CAC7BB002B3739 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				12350F9D26CACE45002B3739 /* Sample_SDK_Create_ownview.swift */,
+				12350F9926CAC924002B3739 /* SampleSDK_UMA.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,7 +191,7 @@
 		ABAB5AE4FD04169F06476974BFCB2701 /* SampleSDK_UMA */ = {
 			isa = PBXGroup;
 			children = (
-				FFE596EC76B38D835A4A005B2AF25DC7 /* ReplaceMe.swift */,
+				12350F9626CAC7BB002B3739 /* Classes */,
 				7534132A66ECBE6010F1A3530AA8E91A /* Pod */,
 				847B2BBA7A8B171DDF345B78973A2696 /* Support Files */,
 			);
@@ -317,6 +328,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					8170B5A8B0D8AFA88E0F19B437684C5B = {
+						LastSwiftMigration = 1250;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -383,7 +399,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4AC804251287C772DB516D214236C27 /* ReplaceMe.swift in Sources */,
+				12350F9A26CAC924002B3739 /* SampleSDK_UMA.swift in Sources */,
+				12350F9E26CACE45002B3739 /* Sample_SDK_Create_ownview.swift in Sources */,
 				D4DBED1F785440291B59A86ECC1789D3 /* SampleSDK_UMA-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,6 +493,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 65AB21881457DABA23724DE7FEC8AB0B /* SampleSDK_UMA.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -495,6 +513,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -571,6 +590,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 03968DE006CA1A6334DB6D906097E5FD /* SampleSDK_UMA.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -653,8 +673,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
