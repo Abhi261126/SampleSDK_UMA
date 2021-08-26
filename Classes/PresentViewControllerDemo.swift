@@ -28,9 +28,10 @@ public class PresentViewControllerDemo:UIViewController {
         btn.layer.borderColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         btn.layer.borderWidth = 3.0
 //        btn.addTarget(self,action: #selector(), for: UIControlEvent.touchUpInside)
-        if let window = UIApplication.shared.keyWindow {
+        if let window = UIApplication.shared.windows.filter({$0.isKeyWindow}).first {
             window.addSubview(btn)
         }
+        
     }
     
     public override func viewWillDisappear(_ animated: Bool) {
@@ -40,12 +41,3 @@ public class PresentViewControllerDemo:UIViewController {
     
 }
 
-extension UIWindow {
-    static var key: UIWindow? {
-        if #available(iOS 13, *) {
-            return UIApplication.shared.windows.first { $0.isKeyWindow }
-        } else {
-            return UIApplication.shared.keyWindow
-        }
-    }
-}

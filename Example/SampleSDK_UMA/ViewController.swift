@@ -17,19 +17,19 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        pressMeOutlet.isHidden = true
-        lblText.isHidden = true
-        
+//        pressMeOutlet.isHidden = true
+//        lblText.isHidden = true
+//
 //        Hello World
-//          lblText.text = umaSDK.printMsg()
+          lblText.text = umaSDK.printMsg()
         
         
 ////               Existing View Color Change
-//          self.view.changeColourTesting(colorCode: "#859490")
+          self.view.changeColourTesting(colorCode: "#859490")
         
 //        Dymamic view
-//          let addSubViewFromSDK = Sample_SDK_Create_ownview(frame: CGRect.init(x: 0, y: UIScreen.main.bounds.height - 300, width: UIScreen.main.bounds.width, height: 300))
-//          self.view.addSubview(addSubViewFromSDK)
+          let addSubViewFromSDK = Sample_SDK_Create_ownview(frame: CGRect.init(x: 0, y: UIScreen.main.bounds.height - 300, width: UIScreen.main.bounds.width, height: 300))
+          self.view.addSubview(addSubViewFromSDK)
         
         
     }
